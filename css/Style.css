@@ -1,0 +1,109 @@
+/* Umumiy */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  color: #ffffff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  max-width: 1200px;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.navbar img {
+  width: 120px;
+}
+
+.navbar nav a {
+  margin-left: 20px;
+  padding: 10px 20px;
+  background-color: #d32f2f;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.navbar nav a:hover {
+  background-color: #b71c1c;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+/* Statistika */
+.stats {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.stats .stat {
+  background: #1e1e1e;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #333;
+}
+
+.stats .stat h2 {
+  color: #e53935;
+  font-size: 2rem;
+}
+
+.stats .stat p {
+  color: #aaa;
+}
+
+/* Tugmalar (o'yinlar uchun) */
+.btn {
+  padding: 10px 20px;
+  background-color: #e53935;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #c62828;
+}
+
+.card {
+  background-color: #1c1c1c;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #000;
+  text-align: center;
+  margin: 20px 0;
+  }
